@@ -1,0 +1,111 @@
+
+.intro {
+  background-image:url("../images/office.jpeg");
+  background-size:cover;
+  background-position: center;
+  height:750px;
+}
+.Logo {
+  padding:50px 0 0 250px;
+}
+.navbar-container ul li{
+  text-decoration: none;
+  display:inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 15px;
+  }
+
+.navbar-container ul li a{
+  color: black;
+  text-decoration: none;
+  display:inline-block;
+}
+.navbar-container ul {
+  text-align: center;
+  margin: -60px -40px 0 0;
+  font-size: 12px;
+}
+
+.infor {
+  padding: 90px 0 0 250px;
+}
+.infor h3 {
+  font-size: 50px;
+}
+
+.chevron {
+  border: 2px solid black;
+}
+
+/* button {
+  width: 120px;
+} */
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 15px 120px 0 220px;
+}
+.gridintro {
+  text-align: center;
+}
+.gridintro h5 {
+  color:  #348BDB;
+}
+
+hr {
+  width: 40px;
+  color:  #348BDB;
+}
+#img1 {
+  border: 5px  solid #CDCDCD;
+  border-radius: 100%;
+  background-color:  #CDCDCD;
+  padding: 7px;
+  margin-left: 60px;
+}
+
+#img2{
+  border: 5px  solid #CDCDCD;
+  border-radius: 100%;
+  background-color:  #CDCDCD;
+  padding: 7px;
+  margin-left: 60px;
+  }
+
+#img3 {
+  border: 5px  solid #CDCDCD;
+  border-radius: 100%;
+  background-color:  #CDCDCD;
+  padding: 7px;
+  margin-left: 60px;
+}
+
+.gridcontainer p{
+  font-size: 10px;
+}
+
+.gridcontainer h2{
+  font-size: 13px;
+}
+
+.gridcontainer a {
+  text-decoration: none;
+  color: #348BDB;
+  font-size: 12px;
+}
+#chevron{
+  border: 2px solid black;
+  border-left: 40px;
+}
+.gridcontent {
+  background-color: #E3F0FF;
+  height: 350px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.Image {
+  padding: 50px 0 0 150px;
+}
