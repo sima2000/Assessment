@@ -96,16 +96,154 @@ hr {
   font-size: 12px;
 }
 #chevron{
-  border: 2px solid black;
-  border-left: 40px;
+  /* border: 2px solid black; */
+  border-left: 1px solid black;
+  margin-left: 11px;
 }
 .gridcontent {
   background-color: #E3F0FF;
   height: 350px;
   display: grid;
   grid-template-columns: auto auto;
+  padding: 70px 125px 0 220px;
+  margin-top: 50px;
 }
 
-.Image {
-  padding: 50px 0 0 150px;
+.creative {
+  color: #CDCDCD;
+  font-size: 15px;
+}
+.creativity h5{
+  color: #348BDB;
+}
+
+.gridsection{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 150px;
+  background-color: #E0EAEF;
+  padding: 50px 0 0 50px;
+}
+.gridsection p {
+  padding: -650px 0px 0px 250px;
+}
+.plugins{
+  border-right: 2px solid black;
+  height: 50px;
+  border-width: thin;
+  display: grid;
+  grid-template-columns: 30px 30px;
+}
+.Client {
+  border-right: 2px solid black;
+  height: 50px;
+  border-width: thin;
+  display: grid;
+  grid-template-columns: 30px 30px;
+}
+.projects {
+  border-right: 2px solid black;
+  height: 50px;
+  border-width: thin;
+  display: grid;
+  grid-template-columns: 30px 30px;
+}
+.Awards {
+  display: grid;
+  grid-template-columns: 30px 30px;
+}
+
+span {
+  color: #CDCDCD;
+}
+.works {
+  text-align: center;
+}
+.works h5 {
+  font-size: 9px;
+  color:#348BDB;
+}
+
+.gridworks{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 50px;
+}
+.gridbusiness {
+  display:grid;
+  grid-template-columns: auto auto;
+  padding: 50px 0 0 250px;
+}
+.design {
+  display:grid;
+  grid-template-columns: auto auto;
+  padding: 50px 0 0 250px;
+}
+.ART {
+  font-size: 10px;
+}
+.asia h5{
+  font-size: 12px;
+  color:#348BDB;
+}
+.planning h5 {
+  font-size: 12px;
+  color:#348BDB;
+}
+.ui h5 {
+  font-size: 12px;
+  color:#348BDB;
+}
+main {
+  background-color: white;
+}
+main a{
+  font-size: 10px;
+  text-align: center;
+  color: #348BDB;
+  text-decoration: none;
+}
+#img-m {
+  border-radius: 100%;
+}
+.one {
+  padding: 30px 0 0 250px;
+}
+.two {
+    padding: 0px 0 0 30px;
+}
+.link {
+  text-align: center;
+  margin: 50px 0 0 150px;
+}
+#line {
+  width:25%;
+}
+.blue {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #0274E0;
+  padding-top:50px;
+  /* text-align: center; */
+  color: white;
+  height: 70px;
+}
+
+.bluesec {
+  font-size: 13px;
+  padding-left:150px;
+}
+.btn button{
+  background-color:  #0274E0;
+  color: white;
+}
+
+#us {
+  border-left: 1px solid white;
+  margin-left: 11px;
+
+}
+
+.lol img:hover{
+  transform: scale(1.5);
 }
