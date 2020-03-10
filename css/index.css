@@ -4,6 +4,7 @@
   background-size:cover;
   background-position: center;
   height:750px;
+  font-family: 'Questrial', sans-serif;
 }
 .Logo {
   padding:50px 0 0 250px;
@@ -31,18 +32,13 @@
   padding: 90px 0 0 250px;
 }
 .infor h3 {
-  font-size: 45px;
-  margin-top: -25px;
+  font-size: 55px;
+  margin-top: -18px;
 }
 
 .chevron {
   border: 2px solid black;
 }
-
-/* button {
-  width: 120px;
-} */
-
 .gridcontainer {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -100,9 +96,10 @@ hr {
   /* border: 2px solid black; */
   border-left: 1px solid black;
   margin-left: 11px;
+  padding-left: 15px;
 }
 .gridcontent {
-  background-color: #E3F0FF;
+  background-color:#F5F9FC;
   height: 350px;
   display: grid;
   grid-template-columns: auto auto;
@@ -122,36 +119,59 @@ hr {
   display:grid;
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 150px;
-  background-color: #E0EAEF;
+  background-color: #E2EBF4;
   padding: 50px 0 0 50px;
+  justify-content: center;
 }
 .gridsection p {
-  padding: -650px 0px 0px 250px;
+  /* padding: -800px 0px 0px 250px; */
+  margin-top: -1px;
+  /* padding-left: -20px; */
 }
 .plugins{
   border-right: 2px solid black;
   height: 50px;
   border-width: thin;
   display: grid;
-  grid-template-columns: 30px 30px;
+  /* grid-template-columns: 30px 30px; */
+  grid-template-columns: 70px 70px;
+    margin-left: -60px;
+    padding-right: 20px;
+}
+.plugins img {
+  padding-left: 32px;
 }
 .Client {
   border-right: 2px solid black;
   height: 50px;
   border-width: thin;
   display: grid;
-  grid-template-columns: 30px 30px;
+  grid-template-columns: 60px 60px;
+  margin-left: -60px;
+  padding-right: 50px;
+}
+.Client img {
+  padding-left: 22px;
 }
 .projects {
   border-right: 2px solid black;
   height: 50px;
   border-width: thin;
   display: grid;
-  grid-template-columns: 30px 30px;
+  grid-template-columns: 60px 60px;
+    margin-left: -60px;
+    padding-right: 67px;
+}
+.projects img {
+  padding-left: 20px;
 }
 .Awards {
   display: grid;
-  grid-template-columns: 30px 30px;
+  grid-template-columns: 60px 60px;
+    margin-left: -60px;
+}
+.Awards img {
+  margin-right: 50px;
 }
 
 span {
@@ -187,13 +207,22 @@ span {
   font-size: 12px;
   color:#348BDB;
 }
+.asia {
+  padding-right: 350px;
+}
 .planning h5 {
   font-size: 12px;
   color:#348BDB;
 }
+.planning {
+  padding-left: 200px;
+}
 .ui h5 {
   font-size: 12px;
   color:#348BDB;
+}
+.ui {
+  padding-right: 380px;
 }
 main {
   background-color: white;
@@ -208,22 +237,28 @@ main a{
   border-radius: 100%;
 }
 .one {
-  padding: 30px 0 0 250px;
+  padding: 30px 0 0 480px;
 }
 .two {
-    padding: 0px 0 0 30px;
+    padding: 0px 400px 0 30px;
+}
+.three {
+  padding-left: 180px;
 }
 .link {
-  text-align: center;
-  margin: 50px 0 0 150px;
+  margin: 50px 0 0 480px;
+  /* padding-left: 130px; */
+
 }
 #line {
-  width:25%;
+  width:60px;
+  /* padding-left: 70px; */
+
 }
 .blue {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: #0274E0;
+  background-color: #0661BE;
   padding-top:50px;
   /* text-align: center; */
   color: white;
@@ -231,18 +266,23 @@ main a{
 }
 
 .bluesec {
-  font-size: 13px;
-  padding-left:150px;
+  font-size: 17px;
+  padding-left:250px;
+}
+.bluesec p {
+  margin-top: -15px;
 }
 .btn button{
-  background-color:  #0274E0;
+  background-color: transparent;
   color: white;
+}
+.btn span {
+  padding-left: 15px;
 }
 
 #us {
   border-left: 1px solid white;
   margin-left: 11px;
-
 }
 
 .lol img:hover{
@@ -261,8 +301,9 @@ main a{
   font-size: 13px;
 }
 .testimonials {
-  background-color: #E3F0FF;
+  background-color: #F5F9FC;
   margin-top: -13px;
+  height: 500px;
 }
 .gridchats {
   display:grid;
@@ -325,10 +366,13 @@ background-color: white;
 
 .gridbrands {
   background-color:white;
-  margin-top: 50px;
+  margin-top: 100px;
+  padding-top:90px;
   justify-content: center;
-  border: 15px solid grey;
+  border: 15px solid black;
 border-color: white;
+height: 205px;
+margin-top: -10px;
 }
 .brands1 img{
   width: 100px;
@@ -348,15 +392,58 @@ padding:15px 0 0 33px;
 
 .brands2{
   width: 60%;
-  margin:0 auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
 }
 .brands1 div {
-  border: 2px solid black;
+  border: 2px solid #CDCDCD;
   height: 70px;
 }
 .brands2 div {
-  border: 2px solid black;
+  border: 2px solid #CDCDCD;
   height: 70px;
+}
+.foot {
+  background-color: #E2EBF4;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 35px;
+  justify-content: center;
+  padding-top: 50px;
+  height: 400px;
+}
+
+.foot p {
+  font-size: 13px;
+}
+.P {
+  padding-top: 35px;
+}
+.Post1 {
+  padding-left: 55px;
+  margin-top: -60px;
+}
+.Post1 p {
+  margin-top: -20px;
+}
+.socials {
+margin:35px 0 20px 0 ;
+}
+.sub {
+  margin-top: 30px;
+}
+button {
+  font-size: 16px;
+  background: transparent;
+}
+input {
+  font-size: 13px;
+  background: transparent;
+}
+#arrow1 {
+transform: translateX(330px) translateY(200px);
+}
+#arrow2{
+transform: translateX(800px) translateY(-160px);
 }
