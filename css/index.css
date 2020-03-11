@@ -5,9 +5,18 @@
   background-position: center;
   height:750px;
   font-family: 'Questrial', sans-serif;
+  margin-top: -45px;
 }
 .Logo {
-  padding:50px 0 0 250px;
+  color: #eaebed;
+  /* padding:50px 0 0 250px; */
+}
+.Logo img {
+  padding-top: 90px;
+  /* font-size: 50px; */
+}
+.span {
+  /* padding-top: 30px; */
 }
 .navbar-container ul li{
   text-decoration: none;
@@ -23,32 +32,55 @@
   display:inline-block;
 }
 .navbar-container ul {
-  text-align: center;
-  margin: -60px -40px 0 0;
-  font-size: 12px;
+  /* text-align: center; */
+  padding-left: 600px;
+  margin: -95px -40px 0 0;
+  font-size: 15px;
+  font-family: 'Questrial', sans-serif;
 }
 
 .infor {
   padding: 90px 0 0 250px;
 }
+.infor h2 {
+  margin-top: 70px;
+}
 .infor h3 {
   font-size: 55px;
-  margin-top: -18px;
+  margin-top: -6px;
+  font-family: 'Questrial', sans-serif;
 }
-
+.infor p {
+  margin-top: -25px;
+}
+.infor button {
+  color: #5c95b7;
+  border-color: #5c95b7;
+  border: 2px thin #5c95b7;
+}
+#chev {
+  border-color: #5c95b7;
+  border-left: 1px solid #5c95b7;
+  color: #5c95b7;
+  margin-left: 11px;
+  padding-left: 15px;
+}
 .chevron {
   border: 2px solid black;
 }
 .gridcontainer {
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-column-gap: -15px;
   padding: 15px 120px 0 220px;
+  /* justify-content: center; */
 }
 .gridintro {
   text-align: center;
 }
 .gridintro h5 {
   color:  #348BDB;
+  font-family: 'Questrial', sans-serif;
 }
 
 hr {
@@ -60,7 +92,8 @@ hr {
   border-radius: 100%;
   background-color:  #CDCDCD;
   padding: 7px;
-  margin-left: 60px;
+  margin-left: 137px;
+
 }
 
 #img2{
@@ -68,7 +101,7 @@ hr {
   border-radius: 100%;
   background-color:  #CDCDCD;
   padding: 7px;
-  margin-left: 60px;
+  margin-left: 137px;
   }
 
 #img3 {
@@ -76,27 +109,40 @@ hr {
   border-radius: 100%;
   background-color:  #CDCDCD;
   padding: 7px;
-  margin-left: 60px;
+  margin-left: 186px;
 }
 
 .gridcontainer p{
-  font-size: 10px;
+  font-size: 13px;
+  /* text-align: center; */
+  margin-left: 90px;
 }
 
 .gridcontainer h2{
-  font-size: 13px;
+  font-size: 15px;
+  font-family: 'Questrial', sans-serif;
+  /* text-align: center; */
+  margin-left: 90px;
 }
 
 .gridcontainer a {
   text-decoration: none;
   color: #348BDB;
-  font-size: 12px;
+  font-size: 13px;
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  margin-left: 90px;
+}
+.y {
+  margin-left: 6px;
+  color: #348BDB;
 }
 #chevron{
   /* border: 2px solid black; */
   border-left: 1px solid black;
   margin-left: 11px;
   padding-left: 15px;
+  /* color: #5c95b7; */
 }
 .gridcontent {
   background-color:#F5F9FC;
@@ -110,9 +156,15 @@ hr {
 .creative {
   color: #CDCDCD;
   font-size: 15px;
+  font-family: 'Questrial', sans-serif;
 }
 .creativity h5{
   color: #348BDB;
+  font-family: 'Questrial', sans-serif;
+}
+.creativity button {
+  color: #5c95b7;
+
 }
 
 .gridsection{
@@ -124,6 +176,8 @@ hr {
   justify-content: center;
 }
 .gridsection p {
+  font-family: 'Questrial', sans-serif;
+
   /* padding: -800px 0px 0px 250px; */
   margin-top: -1px;
   /* padding-left: -20px; */
@@ -181,8 +235,10 @@ span {
   text-align: center;
 }
 .works h5 {
-  font-size: 9px;
+  font-size: 13px;
   color:#348BDB;
+  font-family: 'Questrial', sans-serif;
+
 }
 
 .gridworks{
@@ -201,24 +257,27 @@ span {
   padding: 50px 0 0 250px;
 }
 .ART {
-  font-size: 10px;
+  font-size: 15px;
 }
 .asia h5{
-  font-size: 12px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
   color:#348BDB;
 }
 .asia {
   padding-right: 350px;
 }
 .planning h5 {
-  font-size: 12px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
   color:#348BDB;
 }
 .planning {
   padding-left: 200px;
 }
 .ui h5 {
-  font-size: 12px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
   color:#348BDB;
 }
 .ui {
@@ -228,7 +287,8 @@ main {
   background-color: white;
 }
 main a{
-  font-size: 10px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 13px;
   text-align: center;
   color: #348BDB;
   text-decoration: none;
@@ -266,10 +326,12 @@ main a{
 }
 
 .bluesec {
+  font-family: 'Questrial', sans-serif;
   font-size: 17px;
   padding-left:250px;
 }
 .bluesec p {
+  font-family: 'Questrial', sans-serif;
   margin-top: -15px;
 }
 .btn button{
@@ -293,10 +355,12 @@ main a{
   padding-top: 15px;
 }
 .heading h3 {
+  font-family: 'Questrial', sans-serif;
   margin-top:-15px;
   font-size: 17px;
 }
 .heading h4 {
+  font-family: 'Questrial', sans-serif;
   color:#348BDB;
   font-size: 13px;
 }
@@ -313,18 +377,24 @@ main a{
   justify-content: center;
 }
 .gridchats p {
-  font-size: 12px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 13px;
   margin-top:20px;
+  text-align: left;
+  margin-left: 10px;
   /* padding-left: 50px; */
 }
  #quotes1 {
 margin-left: 110px;
+padding-top: 10px;
 }
 #quotes2 {
 margin-left: 100px;
+padding-top: 10px;
 }
 #quotes3 {
 margin-left: 100px;
+padding-top: 10px;
 }
  #Comments {
   padding-left: 70px;
@@ -355,11 +425,13 @@ background-color: white;
 
 }
 .identity h2{
+  font-family: 'Questrial', sans-serif;
   padding-left: 150px;
   font-size: 14px;
  margin-top: -40px;
 }
 .identity p {
+  font-family: 'Questrial', sans-serif;
   padding-left: 150px;
   margin-top: -10px;
 }
@@ -369,7 +441,7 @@ background-color: white;
   margin-top: 100px;
   padding-top:90px;
   justify-content: center;
-  border: 15px solid black;
+  border: 1px solid black;
 border-color: white;
 height: 205px;
 margin-top: -10px;
@@ -397,11 +469,11 @@ padding:15px 0 0 33px;
   grid-template-columns: auto auto auto auto auto auto;
 }
 .brands1 div {
-  border: 2px solid #CDCDCD;
+  border: 1px solid #CDCDCD;
   height: 70px;
 }
 .brands2 div {
-  border: 2px solid #CDCDCD;
+  border: 1px solid #CDCDCD;
   height: 70px;
 }
 .foot {
@@ -415,7 +487,8 @@ padding:15px 0 0 33px;
 }
 
 .foot p {
-  font-size: 13px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 15px;
 }
 .P {
   padding-top: 35px;
@@ -425,10 +498,14 @@ padding:15px 0 0 33px;
   margin-top: -60px;
 }
 .Post1 p {
+  font-family: 'Questrial', sans-serif;
   margin-top: -20px;
 }
 .socials {
-margin:35px 0 20px 0 ;
+margin:35px 0px 20px 0px ;
+}
+#sm {
+  margin-right: 5px;
 }
 .sub {
   margin-top: 30px;
@@ -438,12 +515,12 @@ button {
   background: transparent;
 }
 input {
-  font-size: 13px;
+  font-size: 15px;
   background: transparent;
 }
 #arrow1 {
-transform: translateX(330px) translateY(200px);
+transform: translateX(300px) translateY(200px);
 }
 #arrow2{
-transform: translateX(800px) translateY(-160px);
+transform: translateX(890px) translateY(-160px);
 }
