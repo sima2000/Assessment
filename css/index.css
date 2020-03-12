@@ -12,7 +12,7 @@
   /* padding:50px 0 0 250px; */
 }
 .Logo img {
-  padding-top: 90px;
+  padding: 40px 0 0 245px;
   /* font-size: 50px; */
 }
 .span {
@@ -34,11 +34,13 @@
 .navbar-container ul {
   /* text-align: center; */
   padding-left: 600px;
-  margin: -95px -40px 0 0;
+  margin: -45px -40px 0 0;
   font-size: 15px;
   font-family: 'Questrial', sans-serif;
 }
-
+.navbar-container {
+  padding-top: 20px;
+}
 .infor {
   padding: 90px 0 0 250px;
 }
